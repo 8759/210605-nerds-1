@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Nёrd's-catalog-1000<title>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="container-logo">
+				</div>
+				<nav class="container-MainNavigation">
+					<ul>
+						<li>
+							<a href="#">Студия</a>
+						</li>
+						<li>
+							<a href="#">Клиенты</a>
+						</li>
+						<li>
+							<a href="#">Магазин</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+					</ul>
+				</nav>
+				<div class="container-UserBlock">
+					<a class="container-UserBlock-purchases" href="#"><img src="#" alt="Покупки"></a>
+					<a class="container-UserBlock-cart" href="#">Корзина</a>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="header">
+				<h2>Магазин готовых шаблонов</h2>
+			</div>
+			<div class="IndexContent">
+				<div class="IndexContent-MainContent">
+					<!--Начало формы-->
+					<div class="IndexContent-MainContent-form">
+						<form>
+							<div class="IndexContent-MainContent-FormRange">
+								<input type="range" name="PriceRange"><br>
+								<label class="IndexContent-MainContent-FormRange-SearchFormTitle">Стоимость:</label><br>
+								<input type="text" name="min-price" placeholder="от 0">
+								<input type="text" name="max-price" placeholder="до 15000">
+							</div>
+							<b>Сетка</b>
+							<input type="radio" name="net" value="Адаптивная" checked>
+							<input type="radio" name="net" value="Фиксированная">
+							<input type="radio" name="net" value="Резиновая">
+							<b>Особенности</b>
+							<input type="checkbox" name="slider" value="Слайдер" checked>
+							<input type="checkbox" name="advantages" value="Блок преимуществ">
+							<input type="checkbox" name="news" value="Новости" checked>
+							<input type="checkbox" name="gallery" value="Галерея">
+							<input type="checkbox" name="cart" value="Корзина">
+							<button type="submit">Показать</button>
+						</form>
+					</div>
+					<!--Конец формы-->
+					<!--Начало правой части-->
+					<div class="IndexContent-MainContent-right">
+						<!--Начало сортировки-->
+						<div class="IndexContent-MainContent-right-sorting">
+							<span class="IndexContent-MainContent-right-sorting-title">
+							<button class="IndexContent-MainContent-right-sorting-SortingBtn" type="button">По цене</button>
+							<button class="IndexContent-MainContent-right-sorting-SortingBtn" type="button">По типу</button>
+							<button class="IndexContent-MainContent-right-sorting-SortingBtn" type="button">По названию</button>
+						</div>
+						<div class="IndexContent-MainContent-right-SortingDirection">
+							<button class="" type="button">вверх</button>
+							<button class="" type="button">вниз</button>
+						</div>
+						<!--Конец сортировки-->
+						<!--Начало блока шаблонов в правой колонке-->
+						<div class="IndexContent-MainContent-right-CatalogItems">
+							<article>
+								<a href="#"><img src="http://placehold.it/150x100" alt="макет Седона"></a> 
+								<div class="IndexContent-MainContent-right-CatalogItems-info">
+									<h2>Седона</h2>
+									<p>Информационный сайт<br>
+									для туриcтов</p>
+									<div class="IndexContent-MainContent-right-CatalogItems-info-ProductAction">
+										<div class="IndexContent-MainContent-right-CatalogItems-info-ProductAction-BuyingItem">
+											<button class="" type="button">9900 руб.</button>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article>
+								<a href="#"><img src="http://placehold.it/150x100" alt="макет Бородинский"></a> 
+							</article>
+							<article>
+								<a href="#"><img src="http://placehold.it/150x100" alt="макет Mishka"></a> 
+							</article>
+							<article>
+								<a href="#"><img src="http://placehold.it/150x100" alt="макет A plus"></a> 
+							</article>
+							<article>
+								<a href="#"><img src="http://placehold.it/150x100" alt="макет крафтовый квас"></a> 
+							</article>
+						</div>
+						<!--Конец блока шаблонов в правой колонке-->
+						<ul class="breadcrumbs">
+							<li><a class=""href="#">1</a></li>
+							<li><a class=""href="#">2</a></li>
+							<li><a class=""href="#">3</a></li>
+							<li><a class=""href="#">Следующий</a></li>
+						</ul>
+					</div>
+					<!--Конец правой части-->
+				</div>
+				<!--Начало блока контактов и карты проезда-->
+				<div class="IndexContent-map">
+					<img src="http://placehold.it/150x100" alt="map Nёrd's">
+					<div class="IndexContent-map-contacts">
+						<b>Nёrd's design studio</b>
+						<p>191186, Санкт-Петербург,<br>
+						ул. Б. Конюшенная, д. 19/8</p>
+						<p>тел.: +7(812)275-75-75</p>
+						<br>
+						<a class="IndexContent-map-contacts-btn" href="#">Напишите нам</a>
+					</div>
+				</div>
+				<!--Конец блока контактов и карты проезда-->
+			</div>
+		</main>
+		<footer>
+			<div class="socials">
+				<div class="socials-SocialBtn socials-SocialVk">
+				</div>
+				<div class="socials-SocialBtn socials-SocialFacebook">
+				</div>
+				<div class="socials-SocialBtn socials-SocialInstagram">
+				</div>
+			</div>
+			<div class="DiscountOffer">
+				<h3>Давайте дружить, это выгодно!</h3>
+				<p>Скидка 10% для друзей из социальных сетей.</p>
+			</div>
+		</footer>
+	</body>
+</html>
